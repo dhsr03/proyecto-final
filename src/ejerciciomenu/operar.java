@@ -1,10 +1,16 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package ejerciciomenu;
 
-
-public class operaciones {
-    
-     private int numero1;
+/**
+ *
+ * @author TOSHIBA
+ */
+public class operar {
+   private int numero1;
     private int numero2;
     private double resultado;
 
@@ -64,5 +70,5 @@ public class operaciones {
              this.setNumero2(num2);
              return (double)getNumero1()/this.getNumero2();
          
-         }
+         }   
 }
